@@ -5,7 +5,34 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+
+		<!-- CSS Styles -->
+		<link rel="stylesheet" href="style/style.css" type="text/css" />
+
+		<!-- Title -->
+		<title>Library Book Manager</title>
 	</head>
-	<body></body>
+	<body>
+		<h1>Library</h1>
+		<div id="book-container">
+			<button id="new-book-button">New Book</button>
+			<div id="form-container" class="hidden">
+				<h2>Add New Book</h2>
+				<form>
+					<label for="title">Title:</label>
+					<input type="text" id="title" required />
+					<label for="author">Author:</label>
+					<input type="text" id="author" required />
+					<label for="pages">Pages:</label>
+					<input type="text" id="pages" required />
+					<label for="read">Read:</label>
+					<input type="checkbok" id="read" />
+					<button type="submit">Add Book</button>
+				</form>
+			</div>
+
+			<!-- JavaScript -->
+			<script src="script.js"></script>
+		</div>
+	</body>
 </html>
