@@ -1,3 +1,4 @@
+/* This CSS code defines the "hidden" class, which can be used to hide elements on a wbe page. When an element has the "hidden" class, it will not be displayed on the page. */
 .hidden {
   display: none;
 }
